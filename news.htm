@@ -1,0 +1,76 @@
+---
+redirect_from: /news.php/
+---
+{% include header.htm %}
+
+<body>
+&nbsp;
+
+{% include nav.htm %}
+
+<div class="column-B">
+
+    <div style="margin-left:auto; margin-right:auto; text-align:center;" class="content-B">
+        <a href="/"><img alt="home" src="images/Logo.png"></a>
+    </div>
+
+	{% for news in site.data.news %}
+		<div class="content-B">
+			<div class="avatar"><img src="/images/{{ news.image }}" /><p>{{ news.name }}</p></div>
+			<div class="title">
+				<div class="titlename">{{ news.title }}</div>
+				<div class="titledate">{{ news.date }}</div>
+			</div>
+			<br />
+			{{ news.content }}
+			<div class="hbar">&nbsp;</div>
+		</div>
+	{% endfor %}
+
+</div>
+
+
+<div class="rotator">
+    <img src="images/Rotator.png">
+</div>
+
+<div class="column-A">
+    <div class="content-A">
+<!--    <f>Animation: <a>On</a> | <a>Off</a></f> -->
+    <h3>About</h3>
+    <p>Welcome to the Tales of Graces Fan Translation website. This website compiles news, information, and updates about the progress of the patch. Up-to-date progress reports are available on the right of this page, and some roadmap landmarks and milestones that can't be displayed in neat little bars are present below.</p><p>Please take a look around, and join us on our IRC Chat to talk directly to the developers and the community.</p>
+    </div>
+    <div class="sidebar">&nbsp;</div>
+    <div class="content-A">
+    <h3>Purchase Links</h3>
+    <p>The translation team gets a small portion of any sales made through these links.</p>
+    <ul>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-40ih.html" title="">Tales of Graces F (Limited)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3ze6.html" title="">Tales of Graces F (JP)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3zvn.html" title="">Tales of Graces F (Asian)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-z3-49-en-84-j-70-3lhc.html" title="">Tales of Graces Wii</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-8l-49-en-84-j-70-3osc.html" title="">Tales Of Graces OST</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-lz-49-en-84-j-70-3pya.html" title="">Tales of Graces Strategy Guide</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-9x-49-en-84-j-70-3srz.html" title="">Tales Of Graces Drama CD</a>
+</li>
+    </ul>
+    </div>
+    <div class="sidebar">&nbsp;</div>
+    <div class="content-A">
+    <h3>Released Downloads</h3>
+    <ul>
+    <li>Tales of Graces F Demo Patch</li>
+    <li>ToGF Demo Wallpaper</li>
+    <li>Efinea Font</li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>

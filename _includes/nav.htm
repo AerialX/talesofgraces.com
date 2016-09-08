@@ -1,0 +1,82 @@
+<div class="column-C">
+    
+    <div class="C-bar"></div>
+    
+    <div class="header-C">
+    Progress
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="content-C">
+        <h4>Halted due to official localization</h4>
+    </div>
+
+    <div class="content-C">
+		<h4 style="color:#000088">Initial Translation
+		<span style="color:#008800">Translation Verification</span></h4>
+	{% for progress in site.data.progress %}
+		<style>
+			@-webkit-keyframes progress{{ forloop.index }} {
+				from {background-size: 0px 18px;} to {background-size: {{ progress.translated_percent }}px 18px;} }
+			@-webkit-keyframes progressB{{ forloop.index }} {
+				from {background-size: 0px 18px;} to {background-size: {{ progress.verified_percent }}px 18px;} }
+			@-webkit-keyframes opacity{{ forloop.index }} {
+				from {opacity: 0;} to {opacity: 0;} }
+		</style>
+		<div class="content-C">
+			<abbr title="{{ progress.translated }} of {{ progress.total }} translated - {{ progress.verified }} of {{ progress.total }} translations verified">{{ progress.section }}</abbr>
+			<div class="progress" style="-webkit-animation-name: progress{{ forloop.index }}; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: 1; -webkit-animation-timing-function: ease-in-out; -webkit-animation-direction: normal; -webkit-background-size: {{ progress.translated_percent }}px 18px; background-size: {{ progress.translated_percent }}px 18px; -moz-background-size: {{ progress.translated_percent }}px 18px;">
+				<span style="position:absolute; left:125px;">{{ progress.translated_percent }}%</span>
+				<div class="progress-complete" style="width: {{ progress.translated_percent }}px; background: url(images/progress.png) top left repeat; -webkit-animation-name: opacity{{ forloop.index }}; -webkit-animation-duration: 3s; -webkit-animation-iteration-count: 1; -webkit-animation-direction: normal;">&nbsp</div>
+			</div>
+
+			<div class="progress" style="background-image:url(images/progressG.png); border-top-width: 0px; -webkit-animation-name: progressB{{ forloop.index }}; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: 1; -webkit-animation-timing-function: ease-in-out; -webkit-animation-direction: normal; -webkit-background-size: {{ progress.verified_percent }}px 18px; background-size: {{ progress.verified_percent }}px 18px; -moz-background-size: {{ progress.verified_percent }}px 18px;">
+				<span style="position:absolute; left:125px;">{{ progress.verified_percent }}%</span>
+				<div class="progress-complete" style="width: {{ progress.verified_percent }}px; background: url(images/progressG.png) top left repeat; -webkit-animation-name: opacity{{ forloop.index }}; -webkit-animation-duration: 3s; -webkit-animation-iteration-count: 1; -webkit-animation-direction: normal;">&nbsp</div>
+			</div>
+		</div>
+	{% endfor %}
+	</div>
+    
+    <br>
+    <div class="C-bar"></div>
+    
+    <div class="header-C">
+    <a href="http://talesofvesperia.net">Vesperia</a>
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="header-C">
+    <a href="faq.htm">F.A.Q.</a>
+    </div>
+
+    <div class="C-bar"></div>
+    
+    <div class="header-C">
+    <a href="irc.htm">Live Chat</a>
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="header-C">
+    <a href="download.htm">Downloads</a>
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="header-C">
+    <a href="http://a0t.co/forum/forumdisplay.php?fid=13">Forum</a>
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="header-C">
+    <a href="http://twitter.com/ToGTrans">Twitter</a>
+    </div>
+
+    <div class="C-bar"></div>
+
+    <div class="C-bar"></div>
+</div>

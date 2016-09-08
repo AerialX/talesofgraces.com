@@ -1,0 +1,74 @@
+---
+redirect_from: /faq.php/
+---
+{% include header.htm %}
+
+<body>
+&nbsp
+
+{% include nav.htm %}
+
+<div class="column-B">
+    <div style="margin-left:auto; margin-right:auto; text-align:center;" class="content-B">
+        <a href="/"><img alt="home" border='0' src="images/Logo.png"></a>
+    </div>
+    <div class="content-B">
+		{% for section in site.data.questions.sections %}
+			<div class="title">
+				<div class="titlename">{{ section.name }}</div>
+				<div class="titledate"></div>
+				{% for question in section.questions %}
+					<a href="#question{{ section.id }}{{ forloop.index }}" name="question{{ section.id }}{{ forloop.index }}"><h2>{{ question.title }}</h2></a>
+					<p>{{ question.content }}</p>
+				{% endfor %}
+			</div>
+			{% unless forloop.last %}
+				<div class="hbar">&nbsp;</div>
+			{% endunless %}
+		{% endfor %}
+	</div>
+</div>
+
+<div class="rotator">
+    <img src="images/Rotator.png">
+</div>
+
+<div class="column-A">
+		{% for section in site.data.questions.sections %}
+			<div class="content-A">
+				<h3>{{ section.shortname }}</h3>
+				<ul>
+				{% for question in section.questions %}
+					<li><a href="#question{{ section.id }}{{ forloop.index }}">{{ question.title }}</a></li>
+				{% endfor %}
+				</ul>
+			</div>
+			{% unless forloop.last %}
+				<div class="sidebar">&nbsp;</div>
+			{% endunless %}
+		{% endfor %}
+    <div class="sidebar">&nbsp;</div>
+    <div class="content-A">
+    <h3>Purchase Links</h3>
+    <p>The translation team gets a small portion of any sales made through these links.</p>
+    <ul>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-40ih.html" title="">Tales of Graces F (Limited)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3ze6.html" title="">Tales of Graces F (JP)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3zvn.html" title="">Tales of Graces F (Asian)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-z3-49-en-84-j-70-3lhc.html" title="">Tales of Graces Wii</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-8l-49-en-84-j-70-3osc.html" title="">Tales Of Graces OST</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-lz-49-en-84-j-70-3pya.html" title="">Tales of Graces Strategy Guide</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-9x-49-en-84-j-70-3srz.html" title="">Tales Of Graces Drama CD</a>
+</li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>

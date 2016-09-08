@@ -1,0 +1,71 @@
+sections:
+    - name: Frequently Asked Questions
+      shortname: FAQ
+      id: faq
+      questions:
+        - title: Do I need a Japanese Wii/PS3 to use this patch?
+          content: |
+              No.
+              Any console of any region will be able to play the game in English.
+        - title: Is the patch out yet?
+          content: |
+              No.
+              However, a full translation patch of the PS3 Tales of Graces F Demo has been released and is available for <a href="/download.htm">download</a>.
+        - title: When will it be done?
+          content: |
+              At the moment the Wii version of the patch is our priority; it will be completed and released before the PS3 translation. There is currently no ETA.
+        - title: What will I need for this patch?
+          content: |
+              A console of any region and a retail Japanese disc of Tales of Graces or Tales of Graces F.
+              Either version of the Wii game will work, as will the Asian version of the PS3 game.
+              See the Wii or PS3 versions of this question for specific homebrew requirements.
+        - title: Will it work with my backed up copy of Tales of Graces?
+          content: |
+              No. The translation will only work with <a href="http://rvlution.net/wiki/Riivolution">Riivolution</a>/R3volution, and will not work with backups, ISOs, or emulators. Buy the game.
+        - title: Where can I get a copy of the game?
+          content: |
+              Check the links in the left sidebar.
+    - name: Wii Questions
+      shortname: Wii Questions
+      id: wii
+      questions:
+        - title: What will I need for this patch?
+          content: |
+              <ul>
+                  <li>A Wii, and a retail copy of Tales of Graces. Either bugfix or the original versions are acceptable.</li>
+                  <li>An SD card of at least 128 MB in size.</li>
+                  <li>A way to run the <a href="http://rvlution.net/wiki/Riivolution">Riivolution</a> application. For systems using the 4.2 menu or lower, simply an SD card is required. For systems on 4.3, you will need either the Homebrew Channel installed, a copy of Super Smash Bros. Brawl US, or a copy of LEGO Indiana Jones.</li>
+              </ul>
+        - title: How do I play the game in Japanese for now?
+          content: |
+              You will need to use Riivolution to run it, see <a href="http://www.absolutezerotranslations.com/forum/viewtopic.php?f=11&t=929">this thread</a> for details.
+    - name: PS3 Questions
+      shortname: PS3 Questions
+      id: ps3
+      questions:
+        - title: What will I need for this patch?
+          content: |
+              <ul>
+                  <li>A PS3 that has not been updated beyond firmware version 3.55</li>
+                  <li>A retail copy of Tales of Graces F. Both the Japanese and Asian region versions will work.</li>
+                  <li>A USB drive with at least 128 MB of free space. It will not require any sort of "jailbreak" usb device.</li>
+              </ul>
+              <p>
+                  We cannot guarantee that the patch will work on any firmware version later than 3.55.
+                  We also suggest that you avoid trying any sort of "CFW" in the meantime; instructions will be posted when the patch is released.
+              </p>
+              <p>
+                  The translated Tales of Graces F Demo was released before recent PS3 hacking advancements, and so it requires firmware 3.41, a USB drive, and a special USB device.
+                  We do not recommend any of the commercial devices such as the PSJailbreak as they are usually not flashable and will be incompatible with the patch. A device such as the <a href="http://www.pjrc.com/store/teensy.html">Teensy</a> is cheap and perfect for the job.
+                  A number of ports for common electronic devices are available.
+              <ul>
+                  <li><a href="http://github.com/psgroove/psgroove">PSGroove</a> is available for many programmable boards such as the Teensy.</li>
+                  <li><a href="http://psfreedom.com/wiki/">PSFreedom</a> allows you to use most Android phones to hack your PS3.</li>
+                  <li><a href="http://psfreedom.com/wiki/IPhoneLinux">PSFreedom iPhone</a> is available for any iPhone that can run iPhone Linux (iPhone 3G and earlier, iPod Touch 1G)</li>
+                  <li><a href="http://brandonw.net/ps3jb/">TI-84</a> and <a href="http://brandonw.net/ps3jb89/">TI-89</a> calculators can also be used.</li>
+                  <li><a href="https://github.com/shuffle2/rockbox_psgroove">Rockbox PSGroove</a> can be used on the old iPod models such as the iPod Video.</li>
+              </ul>
+        - title: How do I play the game in Japanese for now?
+          content: |
+              <p>The game disc will update your PS3 to 3.50 if you are on 3.41. This will allow you to play the game normally (the PS3 is a region free console).</p>
+              <p>There is no harm in updating your PS3 with the disc, though you will lose the ability to play the English demo patch.</p>

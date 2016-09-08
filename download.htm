@@ -1,0 +1,110 @@
+---
+redirect_from: /download.php/
+news:
+- name: ToGF Demo
+  image: demo.png
+  date: Demo Patch - Released Dec 2, 2010
+  title: Tales of Graces F Demo
+  content: |
+    <p>An English patch of the officially released Tales of Graces F PS3 Demo. Currently requires a PS3 with firmware 3.41, a USB key or harddrive, and a jailbreak device with a payload that supports peek/poke installed (we do not support the PSJailbreak dongle).</p>
+    <br />
+    <p><b>Dec 9 Update:</b> The patch has been updated to version 1.1. To update your demo simply download and install the r3volution package again.</p>
+    <p><b><u>Instructions</u></b></p>
+    <ol>
+    <li>Download the r3volution patcher package, <a href="downloads/ToGF-r3volution-1.1.pkg">here</a>.
+    <li>Download the Tales of Graces F Demo package, <a href="http://ares.dl.playstation.net/cdn/JP0700/NPJB90302_00/TEtmjJLywBxUXq3eHnDd50RNAcKijOnYFqiprOjRSd000HN7qlEPX1GLArFmrLhLVJbl1t0uMcSe2Qk3Y59qL90Wafk3LYHBOpleg.pkg">here</a>. <br />Skip this step if the demo is already installed on your PS3, or if you wish the PS3 to automatically download the demo for you.
+    <li>Place the packages on your USB stick or drive.
+    <li>Boot your PS3 with the exploit, and use the package installer in the Games menu to install r3volution.pkg
+    <li>Run r3volution from the Games menu and follow the onscreen instructions.
+    </ol>
+- name: ToGF Wallpapers
+  image: demo.png
+  date: Demo Wallpapers - Released Dec 2, 2010
+  title: Tales of Graces F Demo Wallpapers
+  content: |
+    <p>A set of two fullscreen 1080p wallpapers for use on your desktop. <br /><br /><a href="downloads/TalesofGracesDemoWallpaper.png" style="margin-left:20px; "><img src="images/g-thumb.png" /></a><a href="downloads/R3volutionWallpaper.png" style="margin-left:10px; "><img src="images/r-thumb.png" /></a></p>
+    <br />
+- name: Efinea Font
+  image: bonus.png
+  date: Efinea Font - Released Dec 3, 2010
+  title: Efinea Font by Tempus
+  content: |
+    <p>The Efinea font is a Mac and PC ready True Type font, based off the font used for the native langauge of Efinea. Efinea is the name of the planet on which Tales of Graces and Tales of Graces F takes place. The font extends the visible alphabet in the game with all missing alpha-numeric characters. <br /></p><p style="width:50%; margin-left:auto; margin-right:auto;"><a href="downloads/Efinea.zip"><img src="images/efinea.png" /></a></p>
+    <br />
+---
+
+{% include header.htm %}
+
+<body>
+&nbsp;
+
+{% include nav.htm %}
+
+<div class="column-B">
+
+    <div style="margin-left:auto; margin-right:auto; text-align:center;" class="content-B">
+        <br />
+        <a href="/"><img alt="home" src="images/Downloads.png"></a>
+    </div>
+
+	{% for news in page.news %}
+		<div class="content-B">
+			<div class="icon"><img src="/images/{{ news.image }}" /></div>
+			<div class="title">
+				<div class="titlename">{{ news.title }}</div>
+				<div class="titledate">{{ news.date }}</div>
+			</div>
+			<br />
+			{{ news.content }}
+			<div class="hbar">&nbsp;</div>
+		</div>
+	{% endfor %}
+
+</div>
+
+
+<div class="rotator">
+    <img src="images/Rotator.png">
+</div>
+
+<div class="column-A">
+    <div class="content-A">
+<!--    <f>Animation: <a>On</a> | <a>Off</a></f> -->
+    <h3>About</h3>
+    <p>Welcome to the Tales of Graces Fan Translation website. This website compiles news, information, and updates about the progress of the patch. Up-to-date progress reports are available on the right of this page, and some roadmap landmarks and milestones that can't be displayed in neat little bars are present below.</p><p>Please take a look around, and join us on our IRC Chat to talk directly to the developers and the community.</p>
+    </div>
+    <div class="sidebar">&nbsp;</div>
+    <div class="content-A">
+    <h3>Purchase Links</h3>
+    <p>The translation team gets a small portion of any sales made through these links.</p>
+    <ul>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-40ih.html" title="">Tales of Graces F (Limited)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3ze6.html" title="">Tales of Graces F (JP)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-bp-49-en-84-j-70-3zvn.html" title="">Tales of Graces F (Asian)</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-z3-49-en-84-j-70-3lhc.html" title="">Tales of Graces Wii</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-8l-49-en-84-j-70-3osc.html" title="">Tales Of Graces OST</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-lz-49-en-84-j-70-3pya.html" title="">Tales of Graces Strategy Guide</a>
+</li>
+    <li><a href="http://www.play-asia.com/SOap-23-83-jr9o-71-9x-49-en-84-j-70-3srz.html" title="">Tales Of Graces Drama CD</a>
+</li>
+    </ul>
+    </div>
+    <div class="sidebar">&nbsp;</div>
+    <div class="content-A">
+    <h3>Released Downloads</h3>
+    <ul>
+    <li>Tales of Graces F Demo Patch</li>
+    <li>ToGF Demo Wallpaper</li>
+    <li>Efinea Font</li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,86 @@
+- name: LunaHoshino
+  image: lunahosino.png
+  date: Thurs. Jan 3rd, 4:33 pm
+  title: New Years Bring New Projects
+  content: |
+      <p>Hi, I'm Luna, one of the translators for the Graces Translation Project, here with an announcement that I'm sure many of you have been hoping to see ever since the Graces f translation patch was released.</p>
+      <p>Some of you may recall <a href="http://a.imageshack.us/img801/5039/1003129b.jpg">two</a> <a href="http://a.imageshack.us/img801/60/1003130t.jpg">images</a> released back in September as proof that the new r3volution could be used to patch Tales of Vesperia, meant to show that it was not only possible to patch Tales of Graces f, but that we would be doing so in the future.  From there, our code master Aaron has developed more and more advances on the PS3 homebrew front, culminating in the release of the Tales of Graces f demo patch.</p>
+      <p>Of course, it's little surprise that this revelation brought with it a flood of requests for a Tales of Vesperia translation as well.  At the time, as Graces was the primary focus, the team simply didn't have time to work on another project alongside of it; however, they were happy to offer assistance to those who wished to tackle such a project themselves.  Unfortunately, Tempus is a harsh master, and few were able to face the terrors of his wrath long enough to obtain any knowledge of real use.  (They also forgot to bring cookies, perhaps their most grievous error.)</p>
+      <p>As more and more of the Graces project began to be completed, the members looked for new ways to occupy themselves (besides providing Tempus with more cookies).  Several determined individuals also emerged with the talent to make a Vesperia translation a reality.  That determination was enough to sway even the cold heart of Tempus, and behold, it is now official: the Tales of Graces Translation team's side project, the <a href="http://www.talesofvesperia.net">Tales of Vesperia PS3 Translation</a>!</p>
+      <p>But that doesn't mean that everything is said and done.  With a new project comes a need for new talent, and if you're JLPT Lvl 3 or higher (Lvl 2 and above preferred) and have played Vesperia or Graces and are willing to lend your aid, please feel free to stop by the Live Chat to contact us.  If you'd rather just wait anxiously with bated breath until the project is complete, the sidebars on the site will function exactly as they do on the main Graces site, and updates will be posted here.
+      <br /><br />Luna</p>
+- name: Tempus
+  image: tempus.png
+  date: Thurs. Jan 1st, 12:33 pm
+  title: Dreaming Doesn't Make it So
+  content: |
+      <p>For the last month, following the release of Tales of Graces f in Japan, <a href="http://www.associatedcontent.com/article/6075460/tales_of_graces_wii_ps3_will_be_released_pg2.html?cat=19">various</a> <a href="http://www.vgreleases.com/wii/ReleaseDate-297689.aspx">seedy</a> <a href="http://www.rpgfan.com/boards/index.php?topic=6917.0">articles</a> have been popping up all over the web, caliming a Q1 2011 release. Now, even <a href="http://gonintendo.com/viewstory.php?id=146290">GoNintendo</a> has decided the blatantly unsupported rumours are worth reporting. Now, we know you all want Tales of Graces to come over, but this is getting ridiculous. It happened when the Wii game was released. It happened in January 2010. It was even reported in a magazine. During E3, the Tales of Graces message board made it to #1 message board on Gamefaqs, sheerly out of hope that it might be announced.</p>
+      <p>So let's set the record straight. Tales of Graces has NOT been announced. It has NOT been confirmed to be in development. Namco has recently released information that it is withdrawing development from the West in light of recent failures and fiscal information. If it were announced, it would be announced <a href="http://www.namcobandaigames.com/news">here</a>, and not on random tiny blogs or news sites trying to get a free visit. There is at this time, absolutely no evidence that Tales of Graces is coming over, on any news site or any inside source we've been able to find. And we've looked.</p>
+      <p>I hope that everyone has now had this adequately cleared this up, and will post articles and information responsibly with confirmed data.<br /><br />Thanks,<br />Tempus</p>
+- name: Tempus
+  image: tempus.png
+  date: Thurs. Dec 9th, 00:48 am
+  title: Demo Patch Updated to 1.1
+  content: |
+      <p>Soon after the demo release, we thought of an elegant solution to the justified text issue we were having. This issue caused some white spaces to appear inordinately large - this is now fixed. We also fixed a bug which caused old translations to be used instead of the most current ones for some people. The latest version should now always use the correct strings. We also took the opportunity to touch up the translations a bit, but most changes you'll see are due to the previous bug.</p>
+      <p>To install the new demo, simply download the r3volution package from our download page, install it via jailbreak package installer, and run the new r3volution as normal.</p>
+      <p>Beyond the demo, firmware 3.50 downgraders are now out. We can now guarantee that the full game patch will be acessible for any PS3 on firmware 3.50 or below. We can not at this time guarantee higher firmwares (3.55 or above), but we will keep you posted if new developments occur.</p>
+- name: Tempus
+  image: tempus.png
+  date: Thurs. Dec 2nd, 24:00
+  title: Tales of Graces F English Demo Patch
+  content: |
+      <p>Some of you may note that Tales of Graces F was officically released today. Some of you may be waiting for you copy in the mail. Well, as a little added bonus, we've released our own early Christmas gift. That's right, a complete English patch of the Tales of Graces F Demo, for the PlayStation®3.</p>
+      <p>The demo is available for any PS3 running 3.41, with a jailbreak device that has a payload that supports peek/poke. This supports most jailbreak methods such as PSGroove, but not the default PL3, nor the official PSJailbreak device dongle. The instructions for use and all the files can be found on our new download page, located in the link bar on the right. Also included are a couple of 1080p wallpapers. One is a lovingly reconstructed splash image from Tales of Graces F, a Mutsumi Inomata custom artwork. The other is a R3volution splash screen. Feel free to grab these as well.</p>
+      <p>So enjoy the demo! As a last note, Tales of Graces F is not currently playable from a 3.41 console, and R3volution is currently not usuable on a 3.5 console. While downgrading is available, it may not be for long. Regardless, we will be working on a solution that will ensure that our Tales of Graces F patch will run smoothly on 3.41 jailbroken console. We advise not updating unless you have some pressing need to, unless we advise otherwise. While the Wii version has had some slight delays while we created our PS3 tools, R3volution, and edited and refined the demo, you can be sure that it is still proceeding apace.</p>
+      <p>Cheers, <br />Tempus</p>
+- name: Tempus
+  image: tempus.png
+  date: Fri. Oct 15th, 11:03 pm
+  title: An Important Reminder
+  content: |
+      <p>The PS3 patch at this time can not be performed on a PS3 who has updated higher than System 3.41. Just a brief reminder to those that are interested in it that, if you are above 3.41, that you may not be able to play the patch for some time, or, perhaps not at all. If you are below 3.41, there is no reason to update to 3.41 at this time.</p>
+- name: Tempus
+  image: tempus.png
+  date: Fri. Oct 15th, 11:03 pm
+  title: Feel the Verdure
+  content: |
+      <p>It's been a while since the last post! The bars have been going up steadily, though, never fear. Which segues us into our topic - the mysterious green bars now available on the right side of the screen. What could they mean? What could they be?</p>
+      <p>We've long said that the blue bars were simply for the initial translation. We've had many people coming in and asking 'why can't you release a patch if story is done 100%?'. Besides the fact that we have no intention of releasing any incomplete patches, the 100% only represents the rough translation. Anyone who has played a translation patch or watched a fansub (or a real anime sub!) before knows there are plenty of rough edges left. Why couldn't they simply do some more editing?</p>
+      <p>The cold truth is, translation is hard. Really hard. Especially for video games, and even more especially when trying to coordinate several translators with no professional experience. The mistakes you see already got through a few layers of editing - we intend to have as many or more editing checks in place to assure a high quality. Which brings us back to the green bars - they represent the first of three editing phases. Specifically, the first editing phase is focused on 'Translation Verification', where we verifiy our translations to make sure things weren't accidentally mistranslated and that meaning was not lost. We are working with throughhim413 of Tales of Innocence fame, as well as indirectly with the translated material from Kaji (Tales of Hearts) and Phantasian Productions (Tales of Phantasia and Tales of Destiny DC) to check names against the existing translations and other translation patches as well.</p>
+      <p>After this first editing phase, we will move onto an editing phase centered around contextual editing, and then a final one focused on grammatical and structural editing. Following that, there will be a closed, internal beta test for our team and those we invite. Then when we are satisfied, release.</p>
+      <p>We hope you all enjoy the bars as a means of measuring our progress from day to day (they really do get updated with new content every single day - that's how hard we're working), and continue to follow us in the future!</p>
+      <p>Cheers,<br>Tempus</p>
+- name: Aaron
+  image: aaron.png
+  date: Fri. Sept 3rd, 2:46 am
+  title: Progress is being made!
+  content: |
+      <p>Hello everyone, Aaron here. Being the only person on the team who doesn't know the slightest bit about the Japanese language, it's my job to work on hacking the game to fit our needs. Recently we've been making a lot of progress on the translation patch as a whole, and I'm here to talk about that now.</p>
+      <p>As many of our fans have noticed, we reached a significant milestone a few days ago: the main story is now 100% translated! Though this is only the initial translation phase, things have been proceeding very smoothly thanks to the tireless efforts of our translators. Congratulations to Ruta for working especially hard in bringing the Story bar to completion!</p>
+      <p>There has also been a lot of progress made on the hacking front as well; we're able to edit and test the translation in real time using wireless streaming, and we have the beginnings of a custom subtitle system in place. Those who have been following our <a href='http://twitter.com/ToGTrans'>Twitter</a> account may have noticed that we've <a href='http://www.chronometry.ca/screencaps/Tales%20of%20Graces_002.png'>released</a> <a href='http://www.chronometry.ca/screencaps/Tales%20of%20Graces_003.png'>a</a> <a href='http://www.chronometry.ca/screencaps/Tales%20of%20Graces_005.png'>few</a> <a href='http://www.chronometry.ca/screencaps/Tales%20of%20Graces_006.png'>screenshots</a> showing off the patch in action.</p>
+      <p>As a final note I'd like to revise Tempus' previous announcement and let everyone know that we plan on investigating the possibility of a Tales of Graces F PS3 translation patch. With the recent release of the <a href='http://github.com/psgroove/psgroove'>PSGroove</a> exploit, it is now possible to run homebrew on the PlayStation 3. We can't say yet when it will be done, if at all, but I can tell you that we hope to start work on "R3volution" very soon.</p>
+- name: Tempus
+  image: tempus.png
+  date: Wed. Aug 4th, 7:45 pm
+  title: Even more bars to keep track of
+  content: |
+      <p>As of the next hourly update, if everything goes well, we should have a new bar on the right side of the page - 'Menu'. This bar represents all the things we hadn't added into the bars before. This includes items, artes, titles, menu text of all kinds, and other things. Miscellaneous also received a small upgrade, and so its bar will shrink.</p><p>Along with the new bars, we've also made several small strides in patching, hacking, and graphics. This includes a new font from PacoChan, the inclusion in game of several tough files which had to have unique properties applied, better patching, the menu images, and a few other small things.</p><p>As a final note about Tales of Graces F, we do not intend to halt translation unless the PS3 version is announced for English localization. We're rather sad that Namco has decided upon this course of action, but there isn't much we can do about it. It is impossible to move this translation to the PS3 version, so everyone will just have to be content with the Wii!</p>
+- name: Ruta
+  image: ruta.png
+  date: Tue. July 27th, 1:34 pm
+  title: How ‘bout them progress bars
+  content: |
+      <p>Hi, I'm Ruta, one of the main translators for the project. I wish I could take credit for the bars moving as much as they have been, but it’s really thanks to Tempus’ new mass-replace tool.  I’ll try to clear a few things up on how these bars work, and how the mass-replace works.</p><p>Basically, this game breaks up each event into its own separate file.  Each file has a set of entries.  The number of entries, and how many are translated, are how the progress bars are generated.  However, each event file in the same zone starts off with about 5-20 entries that are exactly the same.  We translators had been waiting on translating these until we had a mass search and replace tool for entries, which Tempus has now kindly provided.  Now that Tempus, I, and others have replaced the majority those repetitive entries, you can expect the progress bars to stabilise.  I would like to point out that I feel the current status is more accurate to where the translation stands.</p><p>For those of you wondering what each bar covers, story is all voiced events that (mostly) can’t be avoided.  Sub-events are events that you get by doing side quests, or unvoiced events.  Skits and NPC should be obvious for anyone who has played a Tales game.  Miscellaneous covers stuff like names of characters and NPCs, instructions on where to go, action descriptions, and system messages.  There is no bar yet to show menu translation, including item and arte names and descriptions, nor do we have skit names reported.  Additionally, Tales of Graces has a DS game included, and we haven’t included that on the site yet either.   I hope that clears up a few questions and concerns I’ve heard about the bars!</p>
+- name: Tempus
+  image: tempus.png
+  date: Wed. July 14th, 2:08 pm
+  title: Hourly Progress Reports
+  content: |
+      <p>Thanks to the tireless and fruitful efforts of Aaron, the progress bars on the right of the screen will now be refreshed hourly. What does this mean? This means that any time you load the site, you can be sure that you're getting the very latest progress report and the very latest info. It also means that for those of you who are so inclinded, you can refresh every hour to see if we've done anything, like some sort of creepy stalker periodically checking the video tapes from the camera attached to the binoculars.</p><p>While you shouldn't expect us all to be working every hour of every day, we hope that you'll pop in occasionally and follow our progress. Other ways you can keep in touch include Twitter, the forums, or our Live Chat on IRC, available from the link to the right or at #Graces on irc.freenode.net. In addition to following along, we encourage interested translators or reverse engineers to take a look and lend a hand.</p>
+- name: Tempus
+  image: tempus.png
+  date: Mon. July 12th, 4:02 pm
+  title: Get Your Groove On
+  content: |
+      <p>The Tales of Graces Fan Translation website is now open for business. For those of you viewing us in Firefox, welcome. For those of you viewing us in Safari or Chrome, enjoy the spiffy animations. For those of you using Internet Explorer, my condolences.</p><p>On this site, you'll find information on the progress of the patch, the occasional news post, and a Live Chat feature where you can chat with the developers. The progress bars should be updated fairly frequently, and eventually will be fully automated and up-to-the-minute.</p><p>The Tales of Graces Translation patch itself is led by Tempus and Aaron of the Fatal Frame 4 Translation Team. It is planned to use the Riivolution system, and to follow a strict localization policy that adheres to a professional style. We hope that you all look forward to the completion of this patch.</p>
